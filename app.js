@@ -26,9 +26,11 @@ function dragover(e) {
 }
 function dragenter(e) {
     e.target.classList.add('hovered')
+    e.target.classList.add('active')
 }
 function dragleave(e) {
     e.target.classList.remove('hovered')
+    e.target.classList.remove('active')
 }
 function dragdrop(e) {
     e.target.classList.remove('hovered')

@@ -51,6 +51,11 @@ body {
   height: 66px;
 }
 
+.placeholder.active {
+  border: 1px dashed black;
+  border-radius: 20px;
+}
+
 .start {
   background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
 }
