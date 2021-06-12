@@ -34,5 +34,6 @@ function dragleave(e) {
 }
 function dragdrop(e) {
     e.target.classList.remove('hovered')
+    e.target.classList.remove('active')
     e.target.append(item)
 }
